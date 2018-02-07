@@ -17,7 +17,7 @@ spring:
   application:
     name: dao
   datasource: 
-    driver-class-name: com.mysql.jdbc.Driver 
+    driver-class-name: com.mysql.jdbc.Driver
   redis:
     host: 192.168.3.7
     port: 6379
@@ -27,8 +27,6 @@ spring:
       max-wait: 15000
       max-idle: 8
       min-idle: 0
-  zipkin:
-    base-url: http://192.168.3.7:9411
 # 易宝请求地址
 yeepay:
   # 异步回调
