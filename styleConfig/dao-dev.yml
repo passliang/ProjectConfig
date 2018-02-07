@@ -29,14 +29,14 @@
     show-sql: false
     generate-ddl: false
 #发布端口配置
-server:
+ server:
   port: 5003  #Tomcat端口
   max-http-header-size: 4194304
   tomcat:
     max-http-post-size: 0
 
 #服务注册与发现
-eureka:
+ eureka:
   client:
     serviceUrl:
       defaultZone: http://127.0.0.1:2001/eureka/  #Eureka Server
