@@ -1,4 +1,8 @@
-spring:
+ spring:
+  application:
+    name: dao #应用名称,与application.properities中保持一致
+  session:
+    store-type: none
   session:
     store-type: none
   datasource:
