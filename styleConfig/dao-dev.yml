@@ -15,24 +15,9 @@ spring:
   profiles:
     active: default
   application:
-    name: yeepay-server
-  datasource:
-    primary:
-      name: primary
-      url: jdbc:mysql://192.168.3.6:3306/qurong_payment?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
-      username: root
-      password: 123456
-      driver-class-name: com.mysql.jdbc.Driver
-      validation-query: SELECT 1
-      max-open-prepared-statements: 20
-      test-while-idle: true
-      time-between-eviction-runs-millis: 60000
-      max-wait: 60000
-      max-active: 20
-      min-idle: 15
-      min-evictable-idle-time-millis: 300000
-      login-username: payment
-      login-password: 'payment123!@#'
+    name: dao
+  datasource: 
+    driver-class-name: com.mysql.jdbc.Driver 
   redis:
     host: 192.168.3.7
     port: 6379
