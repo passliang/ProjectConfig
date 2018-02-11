@@ -1,8 +1,7 @@
-
 info:
   profile: default
 logging:
-  config: classpath:logback.xml
+  config: classpath:logback-spring.xml
 eureka: 
   instance:
     prefer-ip-address: true
