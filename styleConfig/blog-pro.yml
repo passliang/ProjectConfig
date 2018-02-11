@@ -31,7 +31,7 @@ spring:
     
 #发布端口配置
 server:
-  port: 5001  #Tomcat端口
+  port: 5002  #Tomcat端口
   max-http-header-size: 4194304
   tomcat:
     max-http-post-size: 0
