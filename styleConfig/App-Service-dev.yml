@@ -1,6 +1,6 @@
 spring:
   application:
-    name: appService #应用名称,与application.properities中保持一致
+    name: App-Service #应用名称,与application.properities中保持一致
   session:
     store-type: none
   datasource:
