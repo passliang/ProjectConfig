@@ -1,6 +1,6 @@
 spring:
   application:
-    name: App-Service #应用名称,与application.properities中保持一致
+    name: manage #应用名称,与application.properities中保持一致
   session:
     store-type: none
   datasource:
@@ -31,7 +31,7 @@ spring:
     
 #发布端口配置
 server:
-  port: 5001  #Tomcat端口
+  port: 5060  #Tomcat端口
   max-http-header-size: 4194304
   tomcat:
     max-http-post-size: 0
