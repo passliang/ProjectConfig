@@ -53,3 +53,4 @@ eureka:
     statusPageUrlPath: /info
     metadata-map:
       cluster: MAIN
+      
