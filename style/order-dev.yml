@@ -1,6 +1,6 @@
 spring:
   application:
-    name: configServer
+    name: configServer2
   autoconfigure:
     exclude: org.springframework.cloud.consul.serviceregistry.ConsulAutoServiceRegistrationAutoConfiguration
 
