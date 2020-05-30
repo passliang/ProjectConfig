@@ -3,8 +3,11 @@ spring:
     name: configServer2
   autoconfigure:
     exclude: org.springframework.cloud.consul.serviceregistry.ConsulAutoServiceRegistrationAutoConfiguration
-
-
+  boot:
+  admin:
+    client:
+      #adminServer 地址 
+      url: http://localhost:20070
 
 your:
   password: 123
